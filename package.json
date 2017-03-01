@@ -1,10 +1,10 @@
 {
-  "name": "shp2json",
-  "description": "Convert shapefile zip archives into GeoJSON using ogr2ogr with a streaming interface",
+  "name": "shp2json-tmp",
+  "description": "fork of shp2json Convert shapefile zip archives into GeoJSON using ogr2ogr with a streaming interface",
   "version": "1.2.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/substack/shp2json.git"
+    "url": "git://github.com/Alex-Volkov/shp2json"
   },
   "main": "index.js",
   "bin": {

@@ -55,7 +55,7 @@ module.exports = function (inStream) {
             outStream.destroy(err);
         })
     ;
-
+	outStream.tmpDir = tmpDir;
     return outStream;
 };
 
